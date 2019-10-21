@@ -1,1 +1,84 @@
+What's the most expensive listing? What else can you tell me about the listing?
+ANSWER: Full House Victorian is the most expensive listing. I thought it was interesting that there is only one review a month and the availability between the most expensive and the second most expensive is 67 days different. (The most expensive is least available.)
+QUERY
+SELECT 
+	name, 
+	MAX(price) AS Highest_Price,
+	reviews_per_month, 
+	availability_365
+FROM sfo_listings
+GROUP BY 3,4,1
+ORDER BY 2 DESC
+LIMIT 5;
 
+What neighborhoods seem to be the most popular?
+There are over 600 neighborhoods with 0 zero days available per year. Among them these have the most reviews:
+1.	Perfectly located Castro - 365
+2.	Bunk Bed in the Treat Street Clubhouse – 310
+3.	Vibrant Master Bedroom/Private Bathroom + Parking - 273
+QUERY
+SELECT 
+  	DISTINCT name, 
+  	sum(number_of_reviews) AS Number_of_Reviews
+FROM sfo_listings
+WHERE availability_365 LIKE '0'
+GROUP BY 1
+ORDER BY 2 DESC;
+
+What time of year is the cheapest time to go to San Francisco? What about the busiest?
+
+For this question I created a table, inserted the sfo_calender table that had data about dates, availability, and price. I created a column capturing 2 months for a season and used the average cost of listing per season to determine the “cheapest time to go” and highest proportion of rooms available / total rooms open for that season to determine the “busiest” season. 
+Ironically, Jan-Feb was the least expensive time to go on average and time where most of the B&B’s available were occupied. 
+
+CREATE TABLE temp_chal
+(
+calender_date DATE,
+available BOOL,
+price MONEY,
+season VARCHAR(10)
+)
+
+
+INSERT INTO temp_chal
+SELECT calender_date, CAST(available AS BOOL), (CAST(price AS MONEY))
+FROM sfo_calendar;
+
+UPDATE temp_chal
+SET season = 'Sept-Oct'
+WHERE (calender_date >= '20180901' AND calender_date < '20181101')
+OR (calender_date >= '20190901' AND calender_date < '20191101')
+
+UPDATE temp_chal
+SET season = 'Nov-Dec'
+WHERE (calender_date >= '20181101' AND calender_date < '20190101')
+
+UPDATE temp_chal
+SET season = 'Jan-Feb'
+WHERE (calender_date >= '20180101' AND calender_date < '20180301')
+OR (calender_date >= '20190101' AND calender_date < '20190301')
+
+UPDATE temp_chal
+SET season = 'Mar-Apr'
+WHERE (calender_date >= '20180301' AND calender_date < '20180501')
+OR (calender_date >= '20190301' AND calender_date < '20190501')
+
+UPDATE temp_chal
+SET season = 'May-Jun'
+WHERE (calender_date >= '20180501' AND calender_date < '20180701')
+OR (calender_date >= '20190501' AND calender_date < '20190701')
+
+UPDATE temp_chal
+SET season = 'Jul-Aug'
+WHERE (calender_date >= '20180701' AND calender_date < '20180901')
+OR (calender_date >= '20190701' AND calender_date < '20190901')
+
+-- -- -- 
+-- -- -- 
+-- -- -- 
+
+SELECT 
+	season,
+	ROUND(AVG(CAST(price AS NUMERIC(6))), 2) AS Avg_Cost_of_Listing,
+	ROUND(AVG(available::int), 2) AS Capcity_Used
+FROM temp_chal
+GROUP BY 1;
