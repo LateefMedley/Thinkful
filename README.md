@@ -1,4 +1,4 @@
-# Thinkful
+# Thinkful Data Science Bootcamp
 
 ## Contents 
 
