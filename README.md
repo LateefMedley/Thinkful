@@ -41,6 +41,9 @@
       - Data Exploration 1
     - Checkpoint 6
       - Data Exploration 2 
+    - Checkpoint 7 
+      - Feature engineering 1: From variables to features
+    
       
 
 
