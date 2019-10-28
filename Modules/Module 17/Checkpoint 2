@@ -1,0 +1,13 @@
+Assignment
+You will see the benefits of transforming continuous variables into categorical variables when we begin to model the data. For now, let's continue to practice identifying variable types. 
+To complete this assignment, submit a Gist file or enter your answers directly below to the following questions:
+
+ What are the types of the following variables?
+- Age
+Continuous ratio (could be discreet) 
+- Salary, Continuous ratio
+- Revenue, Continuous ratio
+- Customer type, Categorical 
+  - (could be nominal if this is based on region)
+  - (could be ordinal if the relationship size can be monetized)
+- Stock price, Continuous ratio
