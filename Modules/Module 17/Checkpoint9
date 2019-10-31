@@ -9,9 +9,14 @@ The features that could influence the result of a coin toss include:
 •	Wind speed
 •	Heads or Tails?
 A pro for having a lot of features, in the beginning, is more information about the event we are trying to get insight into. 
-A con is that we will need to reduce the number of vectors and choose from the best ones unless we are not planning to do something that will be computationally heavy on our computers. 
+A con is that we will need to reduce the number of vectors and choose from the best ones unless we are not planning to do something
+that will be computationally heavy on our computers. 
 
-If you ever used Netflix, you should already have realized that it provides some recommendations for you to watch. In data science, this is an example of the so-called **recommendations systems**. Read this nontechnical blog post of [Netflix](https://help.netflix.com/en/node/100639) about how they model their recommendations systems. Then, derive the features they use in their recommendations engines and discuss what else can be incorporated into this model.
+If you ever used Netflix, you should already have realized that it provides some recommendations for you to watch. 
+In data science, this is an example of the so-called **recommendations systems**. 
+Read this nontechnical blog post of [Netflix](https://help.netflix.com/en/node/100639) about how they model their recommendations systems.
+Then, derive the features they use in their recommendations engines and discuss what else can be incorporated into this model.
+
 Features:
 •	Taste profile
 •	Recently watched
@@ -25,4 +30,7 @@ Features:
 •	Time spent watching a trailer 
 •	Time spent watching title
 •	Watchlist
-They also mention 3 “layers” of personalization that could be using a combination of features and weights based on rows being displayed or re-engineered features from the dataset. If sign in with a Facebook or other social media account is available, data from those services can be used to drive interesting titles to the viewer. 
+
+They also mention 3 “layers” of personalization that could be using a combination of features and weights based on rows being 
+displayed or re-engineered features from the dataset. If sign in with a Facebook or other social media account is available, 
+data from those services can be used to drive interesting titles to the viewer. 
