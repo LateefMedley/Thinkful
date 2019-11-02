@@ -1,18 +1,26 @@
 ## Assignment
+
 ### Checkpoint 2 – Regression vs. classification
 
 For each of the following situations, decide if you would model using a regression or classification model. Discuss your reasoning with your mentor next time you meet.
+
 1.	The amount a person will spend on a given site in the next 24 months.
 I would use a regression model here, the reason is that time being the thing we’re most interested in, classifying it wouldn’t be appropriate. I think of classification as groups of observations and this is something we’d want to measure quantitatively. 
+
 2.	What color car someone is going to buy.
 I would use a classification model, the reason being the inverse of the first question. 
+
 3.	How many children a family will have.
 Naturally, I would want to consider regression, but a classification model would have its benefits depending on why I want an answer to this question. 
+
 4.	If someone will sign up for a service.
 I would use classification here. 
+
 5.	The number of times someone will get sick in a year.
 I believe both types of models could have some benefit here but naturally, I am thinking regression. 
+
 6.	The probability someone will get sick in the next month.
 Given that I’m specifically interested in the probability of this event, I would choose a regression model here. 
+
 7.	Which medicine will work best for a given patient.
 I am thinking classification, the reason being is that if we have information on people and how well the medicine worked for them, then we could classify people.
