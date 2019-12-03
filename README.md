@@ -43,6 +43,8 @@
       - Data Exploration 2 
     - Checkpoint 7 
       - Feature engineering 1: From variables to features
+    - Checkpoint 10
+      - Model_prep_challenge
   - Module 18
     - Checkpoint 6
       - Challenge: sentiment analysis with Naive bayes
