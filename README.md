@@ -48,6 +48,8 @@
   - Module 18
     - Checkpoint 6
       - Challenge: sentiment analysis with Naive bayes
+    - Checkpoint 10
+      - Challenge: evaluate your sentiment classifier
     
       
 
