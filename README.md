@@ -50,6 +50,10 @@
       - Challenge: sentiment analysis with Naive bayes
     - Checkpoint 10
       - Challenge: evaluate your sentiment classifier
+  - Module 19 Supervised learning: Regression problems
+    - Checkpoint 2
+      - Simple linear regression with OLS (ordinary least squares)
+    
     
       
 
