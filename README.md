@@ -53,6 +53,10 @@
   - Module 19 Supervised learning: Regression problems
     - Checkpoint 2
       - Simple linear regression with OLS (ordinary least squares)
+    - Checkpoint 3
+      - Meeting (and not meeting) the assumptions of linear regression
+    - Checkpoint 4
+      - 
     
     
       
