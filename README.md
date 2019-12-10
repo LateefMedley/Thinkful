@@ -57,6 +57,9 @@
       - Meeting (and not meeting) the assumptions of linear regression
     - Checkpoint 4
       - Interpreting estimated coefficients
+    - Checkpoint 5
+      - Evaluating performance
+
     
     
       
