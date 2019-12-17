@@ -59,6 +59,10 @@
       - Interpreting estimated coefficients
     - Checkpoint 5
       - Evaluating performance
+    - Checkpoint 6
+      - Making predictions
+    - Checkpoint 7
+      - Over-fitting and regularization
 
     
     
