@@ -65,7 +65,9 @@
       - Over-fitting and regularization
   - Module 20 Supervised learning: similarity models
     - Checkpoint 2
-       - KNN classifiers
+      - KNN classifiers
+    - Checkpoint 4
+      - KNN Regresion
 
     
     
