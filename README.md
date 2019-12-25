@@ -72,6 +72,9 @@
       - KNN Regresion
     - Checkpoint 5 
       - Challenge: model comparison
+  - Module 22 Supervised learning: random forest models
+    - Checkpoint 7
+      - Challenge: random forest models
 
     
     
