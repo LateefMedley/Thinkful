@@ -63,6 +63,8 @@
       - Making predictions
     - Checkpoint 7
       - Over-fitting and regularization
+    - Checkpoint 8 
+       - Challenge - Supervised learning: Regression problems
   - Module 20 Supervised learning: similarity models
     - Checkpoint 2
       - KNN classifiers
