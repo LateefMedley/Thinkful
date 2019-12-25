@@ -70,6 +70,8 @@
       - KNN classifiers
     - Checkpoint 4
       - KNN Regresion
+    - Checkpoint 5 
+      - Challenge: model comparison
 
     
     
