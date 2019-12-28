@@ -75,6 +75,9 @@
   - Module 22 Supervised learning: random forest models
     - Checkpoint 7
       - Challenge: random forest models
+  - Module 23 Supervised learning: Support Vector Machines
+    - Checkpoint 5
+      - Guided example and challenge
 
     
     
