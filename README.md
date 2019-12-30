@@ -78,8 +78,10 @@
   - Module 23 Supervised learning: Support Vector Machines
     - Checkpoint 5
       - Guided example and challenge
-
-    
+  - Module 24
+     - Checkpoint 24
+      - Supervised learning: Boosting models
+  
     
       
 
