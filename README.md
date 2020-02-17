@@ -81,6 +81,9 @@
   - Module 24 Supervised learning: Boosting models
     - Checkpoint 3
       - Guided example: Drill Improve Classifier
+  - Module 30 Unsupervised learning: Clustering
+    - Checkpoint 2 
+      - DRILL: Mo' blobs, mo' problems?
   
     
       
