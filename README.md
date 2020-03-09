@@ -84,7 +84,10 @@
   - Module 30 Unsupervised learning: Clustering
     - Checkpoint 2 
       - DRILL: Mo' blobs, mo' problems?
-  
+  - Module 35 Algorithms and Data Structures
+    - Checkpoint 3
+      - Sort in 60 Minutes
+      
     
       
 
