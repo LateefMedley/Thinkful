@@ -87,7 +87,9 @@
   - Module 35 Algorithms and Data Structures
     - Checkpoint 3
       - Sort in 60 Minutes
-      
+    - Checkpoint 4
+      - Trees
+  
     
       
 
