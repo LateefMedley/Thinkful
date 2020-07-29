@@ -6,7 +6,7 @@ League of Legends is a MOBA (multiplayer online battle arena) where 2 teams (blu
 
 CSV of features Used for Models
 
-ipynb including 2 models and a brief comparison
+ipynb including 2 models and a game data analysis
 
 
 ### Content - Data
