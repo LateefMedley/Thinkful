@@ -8,9 +8,7 @@ CSV of features Used for Models
 
 ipynb models and a game data analysis
 
-***Note - The League Analysis and Model.ipynb file contains an analysis and tests the MLP I built vs a GBC
-
-        - The League_Analysis_and_Unsupervised_Models.ipynb file contains an analysis using t-SNE and only uses unsupervised models to predict a winner 
+***Note - The League Analysis and Model.ipynb file contains an analysis and tests the MLP I built vs a GBCand The League_Analysis_and_Unsupervised_Models.ipynb file contains an analysis including t-SNE and only uses unsupervised models to predict a winner 
 
 ### Content - Data
 
