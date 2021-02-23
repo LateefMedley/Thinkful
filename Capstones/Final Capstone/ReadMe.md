@@ -4,6 +4,10 @@
 
 Fatal Encounter - an encounter in which a US civilian met with some law enforcement agent and the civilian died during the encounter
     - Does not include civilians who died in law enforcement custody
+
+### Content - Files
+
+* BLANK FOR NOW
     
 ### The Purpose
 
@@ -16,3 +20,8 @@ Quick Note about the availability of this data
 Fatal Encounter’s word about the data
 
 The data I am using comes from the non-profit “fatal-encounters.org.” Here’s a note from their website, “A quick word about the data: At over 28,000 records, it’s tempting to consider this a comprehensive dataset. It’s not. While we completed the systematic states-by-year searches of the United States on November 3, 2017, we know we’ve missed some. This set was never intended to do anything except identify the names, demographic information, dates and locales of the dead and to give us direction for categories that needed further research.” 
+
+### Acknowledgements
+Special Thanks to the founder of FatalEncounters.org, D. Brian Burghart 
+
+Read more about him here: https://fatalencounters.org/about-me/
