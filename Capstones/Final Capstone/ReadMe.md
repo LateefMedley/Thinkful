@@ -11,7 +11,7 @@ The goal of this work is to provide a look into what has happened regarding civi
 
 Quick Note about the availability of this data 
 
-“The nation’s leading law enforcement agency [FBI] collects vast amounts of information on crime nationwide, but missing from this clearinghouse are statistics on where, how often, and under what circumstances police use deadly force. In fact, no one anywhere comprehensively tracks the most significant act police can do in the line of duty: take a life,” according to the Las Vegas Review-Journal in its series Deadly Force (Nov. 28, 2011)
+“The nation’s leading law enforcement agency [FBI] collects vast amounts of information on crime nationwide, but missing from this clearinghouse are statistics on where, how often, and under what circumstances police use deadly force. In fact, no one anywhere comprehensively tracks the most significant act police can do in the line of duty: take a life,” according to the Las Vegas Review-Journal in its series Deadly Force (Nov. 28, 2011) During my search for this data I can say that some summary statistics are availible to the public, but I had a hard time finding a tabular form of encounters. 
 
 Fatal Encounter’s word about the data
 
