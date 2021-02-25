@@ -6,9 +6,12 @@ Fatal Encounter - an encounter in which a US civilian met with some law enforcem
     - Does not include civilians who died in law enforcement custody
 
 ### Content - Files
+* Presentation Folder
+    * Contains a notebook that compares an ARIMA model to a fbProphet model
+    * Contains a fbProphet model plot comparing the actual observed values to 121 predict values and includes an additional 50 day out of sample forecast
+    * Contains a ARIMA model plot comparing the actual observed values to 121 predict values and includes an additional 50 day out of sample forecast
 
-* BLANK FOR NOW
-    
+
 ### The Purpose
 
 The goal of this work is to provide a look into what has happened regarding civilian fatal encounters with police over the last 20 years by region and to predict what may happen based on the trends and seasonality we have already observed. It is my hope that this information will enlighten civilians and law enforcement, and overseeing agencies of the risk of ignoring problems in policing, not only as it pertains to minority groups, but as it pertains to all the stakeholders regarding the crucial work of policing. These encounters, when negatively viewed by the public makes the line of this work more dangerous, but comprehensive reporting and analytics regarding this matter on a national scale is scarce. That may be because there are over 10,000 law enforcement agencies and major inconsistencies in reporting which lends itself to the unhealthy narrative of secrecy regarding public policing. “Secrecy in police work is not only undesirable but unwarranted. Accountability means being responsive to the problems and needs of citizens. It also means managing police resources in the most cost-effective manner. It must be remembered that the power to police comes from the consent of those being policed.” The Community Relations Service (CRS), component of the U.S. Department of Justice.
