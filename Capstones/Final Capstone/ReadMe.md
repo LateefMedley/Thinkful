@@ -2,7 +2,8 @@
 
 #### Defining a Fatal Encounter
 
-Fatal Encounter - an encounter in which a US civilian made contact with representatives from one or more law enforcement agencies and died <b> Does not include civilians who died in law enforcement custody </b>
+Fatal Encounter - an encounter in which a US civilian made contact with representatives from one or more law enforcement agencies and died 
+   - Does not include civilians who died in law enforcement custody
 
 ### Content - Files
 * Presentation Folder
