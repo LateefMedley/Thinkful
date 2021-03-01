@@ -6,8 +6,9 @@ Fatal Encounter - an encounter in which a US civilian made contact with represen
    - Does not include civilians who died in law enforcement custody
 
 ### Content - Files
+* Powerpoint Presentation of what this model addresses, how it can be used, and quick exploration of the data
 * Presentation Folder
-    * Contains a notebook that compares an ARIMA model to a fbProphet model
+    * Contains a notebook that compares an ARIMA model to a fbProphet model (a walkthrough of model EDA and more)
     * Contains a fbProphet model plot comparing the actual observed values to 121 predict values and includes an additional 50-day projection forecast
     * Contains an ARIMA model plot comparing the actual observed values to 121 predict values and includes an additional 50-day projection forecast
 * The Product
