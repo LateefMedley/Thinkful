@@ -4,7 +4,13 @@
 
 ### Capstones
 - Thinkful Capstone 1
-  - A Basic Analysis of American Buying Power from years 1987 - 2015
+  - A Basic Analysis of American Buying Power from years 1987 - 2015 (concerning the housing market)
+- Supervised Capstone
+  - SUpervised Algorithms used to predict the sales price of a home in Iowa (Kaggle competetion) 
+- Unsupervised Capstone 
+  - Identify the differences between teams that win and teams that lose matches in a video game called League of Legends
+- Final Capstone
+  - Use time series modeling to predict Fatal Encounters between US citizens and agents of law enforcement (focused on citizen deaths)
 
 ### Modules
   - Module 7 - Basic statistics and probability with Python
