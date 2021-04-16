@@ -1,5 +1,7 @@
 # Thinkful Data Science
 
+About Repo - This repo contains a lot of the work I completed during my data science apprenticeship at Thinkful/Chegg
+
 ## Contents 
 
 ### Capstones
